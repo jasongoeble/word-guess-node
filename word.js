@@ -7,7 +7,7 @@ var aWord = function ()
     {
         var stringWord = "";
 
-        for (var i = 0; i < stringWord.length; i++)
+        for (var i = 0; i < this.letterArray.length; i++)
         {
             //construct the string based on the status of the letters created by the word array
             //probably need to create letter variables for each letter in the 
